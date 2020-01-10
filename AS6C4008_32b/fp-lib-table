@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name AS6C4008_32b)(type KiCad)(uri ${KIPRJMOD}/AS6C4008_32b.pretty)(options "")(descr ""))
+)
