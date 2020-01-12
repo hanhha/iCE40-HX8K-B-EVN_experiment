@@ -1,0 +1,51 @@
+# User Constraint File for iCE40hx8k Breakout Board
+
+# Onboard LED and GPIO
+set_io led[0] B5
+set_io led[1] B4
+set_io led[2] A2
+set_io led[3] A1
+set_io led[4] C5
+set_io led[5] C4
+set_io led[6] B3
+set_io led[7] C3
+
+# New DAC board
+#set_io dac_bin[7] M15
+#set_io dac_bin[6] L16
+#set_io dac_bin[5] K16
+#set_io dac_bin[4] J14
+#set_io dac_bin[3] N16
+#set_io dac_bin[2] M16
+#set_io dac_bin[1] K15
+#set_io dac_bin[0] K14
+
+# Initial DAC board
+set_io dac_bin[7] M15
+set_io dac_bin[6] L16
+set_io dac_bin[5] K16
+set_io dac_bin[4] J14
+set_io dac_bin[3] F14
+set_io dac_bin[2] H14
+set_io dac_bin[1] G15
+set_io dac_bin[0] F15
+
+#set_io dac_bin_ref[7] R16
+#set_io dac_bin_ref[6] T15
+#set_io dac_bin_ref[5] T13
+#set_io dac_bin_ref[4] N12
+#set_io dac_bin_ref[3] N10
+#set_io dac_bin_ref[2] T11
+#set_io dac_bin_ref[1] T10
+#set_io dac_bin_ref[0] P8
+
+# Resetn button
+set_io -pullup yes rstn B8 
+
+# Other buttons
+set_io -pullup yes btnOK B7
+set_io -pullup yes btnUL A5  
+set_io -pullup yes btnDR C6
+
+# Onboard 12Mhz oscillator
+set_io clk J3
